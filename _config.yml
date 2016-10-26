@@ -3,19 +3,17 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "Kiko Plus"
-
-
+name:               "Ken Bier"
 
 author:
-  name:             your-name
-  facebook:         your-id
-  twitter:          your-id
-  github:           your-id
-  linkedin:         your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
+  name:             "Ken Bier"
+  # facebook:         your-id
+  twitter:          kenbier 
+  github:           kenbier 
+  linkedin:         kennethbier
+  # medium:           your-id
+  # tumblr:           your-id
+  email:            me@kenbier.com
 
 # Google-analytics
 google-analytics:
@@ -30,9 +28,8 @@ disqus:
 url:                "http://localhost:4000" # use this url when develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
+timezone:           America/Los_Angeles
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
@@ -48,14 +45,8 @@ kramdown:
 nav:
   - name:           "About"
     url:            "/about"
-  - name:           "Archive"
+  - name:           "Posts"
     url:            "/archive"
-  - name:           "Tags"
-    url:            "/tags"
-  - name:           "Github"
-    url:            "https://github.com/AWEEKJ/Kiko-plus"
-
-
 
 # Sass
 sass:
