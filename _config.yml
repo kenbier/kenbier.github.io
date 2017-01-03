@@ -1,0 +1,37 @@
+# general configuration
+url: http://excentris.net
+baseurl: ''
+
+# compass configuration
+compass:
+  # an avatar or logo (optional)
+  logo: "/images/about_pic.jpg"
+  # author will appear under the avatar (optional)
+  author: "Ken Bier"
+  # tagline will appear under the title (optional)
+  tagline: "San Francisco, CA" #"Full stack developer"
+  # if include_content is true, the contents of the content.html include will be
+  # added right above the generated item list, if present
+  include_content: true
+  # if include_analytics is true, the content of the analytics.html include will
+  # be added at the end of the <head> section. You can add your Google Analytics
+  # Tracking Code to that file.
+  include_analytics: false
+
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+# Permalinks
+permalink: pretty
+
+
+author:
+  name:             "Ken Bier"
+  # facebook:         your-id
+  twitter:          kenbier 
+  github:           kenbier 
+  linkedin:         kennethbier
+  medium:           kenbier
+  # tumblr:           your-id
+  email:            me@kenbier.com
